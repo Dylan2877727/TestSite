@@ -1,41 +1,102 @@
-<html>
+!DOCTYPE html>
+<html lang="en">
 <head>
-  <style>
-     body{text-align: center; background-color: #4601CE; margin-left: 30%; margin-right: 30%}
-p {font-family: Arial; font-size:x-small14pt}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Cats</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffcc00;
+            text-align: center;
+            padding: 20px;
+            color: white;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            float: left;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
-<a href="#Fav Food">Jump to Cats are obligate</a>
-
 <body>
-<h1>My Website</h1>
 
-<p>Cats are obligated carnivores and love meat-based foods like chicken, turkey, fish, and beef. Wet food, especially with a meaty sauce or pate, is often their favorite due to its texture and flavor. Many cats enjoy fish, such as tuna or salmon, and some also like high-quality dry food. Treats like catnip or small pieces of cooked meat can also be a hit, appealing to their natural hunting instincts.</p>
-<p>
-Cats are playful and curious animals. They love exploring their surroundings, chasing toys, and pouncing on moving objects like laser pointers. Napping in sunny spots is a favorite activity, along with grooming to keep their fur clean. Cats also enjoy scratching to stretch and mark their territory. Whether playing, resting, or observing, they find joy in exploring their environment.
-</p>
-<table>
-  <tr>
-    <th>Most common breeds</th>
-    <th>Where it originates from</th>
-    
-  </tr>
-  <tr>
-    <td>Domestic Shorthair</td>
-    <td>North America and Europe</td>
-    
-  </tr>
-  <tr>
-    <td>Siamese</td>
-    <td>Thailand</td>
-    
-  </tr>
-</table>
+    <header>
+        <h1>All About Cats</h1>
+      
+    </header>
 
+    <nav>
+        <a href="#types">Types of Cats</a>
+        <a href="#fun-facts">Fun Facts</a>
+        <a href="#care">Cat Care</a>
+      
+    </nav>
 
-<img src="data:image/jpeg;base64,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" width="300px>
+    <section id="types">
+        <h2>Popular Cat Breeds</h2>
+        <p>Cats come in many breeds, each with unique characteristics. Some of the most popular breeds include:</p>
+        <ul>
+            <li><strong>Domestic Shorthair:</strong> Known for their friendly nature and variety of colors and patterns.</li>
+            <li><strong>Siamese:</strong> Famous for their blue almond-shaped eyes and color points on their ears, face, paws, and tail.</li>
+            <li><strong>Maine Coon:</strong> One of the largest domestic cats, known for their bushy tails and playful, affectionate temperament.</li>
+            <li><strong>Persian:</strong> A long-haired breed known for its calm and gentle personality.</li>
+        </ul>
+    </section>
 
+    <section id="fun-facts">
+        <h2>Fun Facts About Cats</h2>
+        <p>Cats are fascinating creatures with some interesting habits! Here are a few fun facts:</p>
+        <ul>
+            <li>Cats can rotate their ears 180 degrees.</li>
+            <li>They sleep for about 12-16 hours a day.</li>
+            <li>Cats can make over 100 different sounds.</li>
+            <li>They have a specialized collarbone that allows them to always land on their feet when falling.</li>
+        </ul>
+    </section>
 
+    <section id="care">
+        <h2>How to Take Care of Your Cat</h2>
+        <p>Proper care ensures your cat lives a long, healthy, and happy life. Here are some tips:</p>
+        <ul>
+            <li><strong>Provide fresh water:</strong> Make sure your cat always has access to fresh, clean water.</li>
+            <li><strong>Groom regularly:</strong> Brush your cat’s fur to prevent matting, especially for long-haired breeds.</li>
+            <li><strong>Regular vet visits:</strong> Take your cat for regular check-ups and vaccinations to ensure their health.</li>
+            <li><strong>Play and exercise:</strong> Cats need mental stimulation and exercise, so keep them engaged with toys.</li>
+        </ul>
+    </section>
+
+   
 </body>
-
 </html>
